@@ -1,72 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>CSS Template</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightblue;
 }
 
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #113;
-}
-
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
+h1 {
   color: black;
+  text-align: center;
 }
 
-/* Style the content */
-.content {
-  background-color: #ddd;
-  padding: 10px;
-  height: 200px; /* Should be removed. Only for demonstration */
+h3 {
+  color: black;
+  text-align: center;
 }
 
-/* Style the footer */
-.footer {
-  background-color: #f1f1f1;
-  padding: 10px;
+p {
+  font-family: "Comic Sans MS", "Comic Sans";
+  font-size: 20px;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
-</style>
-</head>
-<body>
-
-<div class="topnav">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-</div>
-
-<div class="content">
-  <h2>CSS Template</h2>
-  <p>A topnav, content and a footer.</p>
-</div>
-
-<div class="footer">
-  <p>Footer</p>
-</div>
-
-</body>
-</html>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+header
+h1 {
+  font-family: "Papyrus";
+}
